@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="800" height="300" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Process Flow Steps -->
+  <!-- Step 1: Data Input -->
+  <rect x="50" y="100" width="120" height="80" fill="#0d6efd" stroke="#0a58ca" stroke-width="2" rx="10" ry="10"/>
+  <text x="110" y="145" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Data Input</text>
+  <text x="110" y="165" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Parameters</text>
+  
+  <!-- Arrow 1 -->
+  <line x1="170" y1="140" x2="220" y2="140" stroke="#6c757d" stroke-width="3"/>
+  <polygon points="220,135 230,140 220,145" fill="#6c757d"/>
+  
+  <!-- Step 2: Analysis -->
+  <rect x="230" y="100" width="120" height="80" fill="#6610f2" stroke="#520dc2" stroke-width="2" rx="10" ry="10"/>
+  <text x="290" y="145" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Analysis</text>
+  <text x="290" y="165" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Calculations</text>
+  
+  <!-- Arrow 2 -->
+  <line x1="350" y1="140" x2="400" y2="140" stroke="#6c757d" stroke-width="3"/>
+  <polygon points="400,135 410,140 400,145" fill="#6c757d"/>
+  
+  <!-- Step 3: Optimization -->
+  <rect x="410" y="100" width="120" height="80" fill="#d63384" stroke="#ab296a" stroke-width="2" rx="10" ry="10"/>
+  <text x="470" y="145" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Optimization</text>
+  <text x="470" y="165" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Algorithms</text>
+  
+  <!-- Arrow 3 -->
+  <line x1="530" y1="140" x2="580" y2="140" stroke="#6c757d" stroke-width="3"/>
+  <polygon points="580,135 590,140 580,145" fill="#6c757d"/>
+  
+  <!-- Step 4: Results -->
+  <rect x="590" y="100" width="120" height="80" fill="#198754" stroke="#146c43" stroke-width="2" rx="10" ry="10"/>
+  <text x="650" y="145" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Results</text>
+  <text x="650" y="165" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Recommendations</text>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial" font-size="20" font-weight="bold" fill="#212529" text-anchor="middle">Energy Optimization Process</text>
+  
+  <!-- Feedback Loop -->
+  <path d="M650,180 L650,220 L110,220 L110,180" fill="none" stroke="#fd7e14" stroke-width="3" stroke-dasharray="5,5"/>
+  <polygon points="115,180 110,170 105,180" fill="#fd7e14"/>
+  <text x="380" y="245" font-family="Arial" font-size="14" fill="#fd7e14" text-anchor="middle">Continuous Improvement Feedback Loop</text>
+</svg>
